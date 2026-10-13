@@ -1,0 +1,58 @@
+# ---------------------------------------------
+# Business Central / AL development
+# ---------------------------------------------
+
+# Compiled extension packages
+*.app
+
+# Symbol packages and caches
+.alpackages/
+.alcache/
+.snapshots/
+.altestrunner/
+.output/
+
+# Runtime packages
+*.runtime.app
+
+# Translation output (generated .g.xlf; keep hand-maintained .xlf files)
+Translations/*.g.xlf
+
+# Debugging / snapshot artifacts
+*.snapshot
+*.flf
+*.bclicense
+
+# Code analysis / ruleset reports
+*.ErrorLog.json
+*.AppSourceCop.json.bak
+
+# Credentials and local launch settings
+.vscode/launch.json
+*.pfx
+*.p12
+*.cer
+
+# Docker / BcContainerHelper artifacts
+.bccontainerhelper/
+my/
+*.bak
+
+# ---------------------------------------------
+# Editor / OS
+# ---------------------------------------------
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.vs/
+*.code-workspace.bak
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.swp
+*~
+
+# Logs and temp
+*.log
+*.tmp
+TestResults/
